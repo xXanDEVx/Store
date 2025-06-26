@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Maçã Fuji",
+        "preco": 6.50,
+        "categoria": "Fruta",
+        "imagem": "https://st3.depositphotos.com/2046901/12716/v/450/depositphotos_127160050-stock-illustration-bitten-apple-vector.jpg"
+    },
+    {
+        "nome": "Arroz Integral",
+        "preco": 7.90,
+        "categoria": "Grãos",
+        "imagem": "https://st.depositphotos.com/23654100/60869/v/450/depositphotos_608698640-stock-illustration-bag-rice-grain-ear-isolated.jpg"
+    },
+    {
+        "nome": "Leite Desnatado",
+        "preco": 4.30,
+        "categoria": "Leite",
+        "imagem": "https://img.freepik.com/vetores-premium/ilustracao-de-leite-vetorial-de-desenho-animado-cute-milk-carton-desenho-animado-com-um-copo-de-leite_648083-558.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "nome": "Suco de Laranja",
+        "preco": 8.20,
+        "categoria": "Bebidas",
+        "imagem": "https://img.freepik.com/vetores-premium/suco-de-laranja_33916-225.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "nome": "Banana Prata",
+        "preco": 4.90,
+        "categoria": "Fruta",
+        "imagem": "https://img.freepik.com/vetores-premium/banana-vetor-de-bananas-ilustracao-vetorial_75817-914.jpg"
+    },
+    {
+        "nome": "Iogurte Natural",
+        "preco": 2.70,
+        "categoria": "Leite",
+        "imagem": "https://img.freepik.com/vetores-premium/ilustracao-do-icone-do-vetor-dos-desenhos-animados-do-copo-de-iogurte-fofo-conceito-de-icone-de-objeto-de-alimento-isolado-vetor-premium-estilo-flat-cartoon_138676-4073.jpg"
+    }
+]

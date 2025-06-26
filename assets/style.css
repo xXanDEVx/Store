@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #E4E7F0;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button>* {
+    pointer-events: none;
+}
+
+.row {
+    --gap: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap);
+    padding: var(--gap);
+    flex-wrap: wrap;
+}
+
+.gap-2 {
+    --gap: 2em;
+}
+
+[class*="col-"] {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    --size: calc(8.3333% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-2 {
+    --size: calc(16.6666% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-3 {
+    --size: calc(25% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-4 {
+    --size: calc(33.3333% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-5 {
+    --size: calc(41.6666% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-6 {
+    --size: calc(50% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-7 {
+    --size: calc(58.3333% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-8 {
+    --size: calc(66.6666% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-9 {
+    --size: calc(75% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-10 {
+    --size: calc(83.3333% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-11 {
+    --size: calc(91.6666% - var(--gap));
+    flex-basis: var(--size);
+    max-width: var(--size);
+}
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    padding: 3em;
+}
+
+.banner-store {
+    display: flex;
+    flex-direction: row;
+    background-color: #3199FB;
+    color: #FFFFFF;
+    border-radius: 0.5em;
+}
+
+.store-icon {
+    font-size: 30px;
+    display: flex;
+    padding-left: 1em;
+    align-self: center;
+}
+
+.info {
+    padding: 1em;
+}
+
+.tittle {
+    display: flex;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.description {
+    color: #E4E7F0;
+    margin: 0;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.items {
+    background-color: #ffffff;
+    border-radius: 0.25em;
+    margin-top: -10px;
+}
+
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    width: 1em;
+}
+
+.product-name {
+    margin: 0px;
+    padding-top: 0.5em;
+    color: #242424;
+    font-size: 16px;
+}
+
+[data-handler="addItem"] {
+    display: flex;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #0062FF;
+    color: #FFFFFF;
+    width: 73px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+[data-handler="addItem"]:hover {
+    background-color: #0059e7;
+}
+
+.area-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-category {
+    margin: 0px;
+    color: #858C98;
+}
+
+.image-product {
+    width: 100%;
+    border-radius: 0.5em;
+    border: 1px solid #b8b8b8;
+    ;
+    aspect-ratio: 1/1;
+}
+
+.price-color {
+    color: green;
+}
+
+
+
+.list-product {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.payament-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    position: sticky;
+    bottom: 0px;
+    background-color: #fff;
+    padding: 1em 0;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.section-pay {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+    height: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 1em 1.25em 0;
+    margin: 3em;
+    width: 282px;
+    box-shadow: 0 -0.5em 0 rgba(0, 0, 0, 0.1), 0 -1em 0 rgba(0, 0, 0, 0.1);
+}
+
+.basket-store {
+    margin: 0;
+    font-size: 16px;
+}
+
+.remove-icon {
+    color: #CB4444;
+    aspect-ratio: 1/1;
+}
+
+[data-handler="removeItem"] {
+    color: none;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 1em;
+}
