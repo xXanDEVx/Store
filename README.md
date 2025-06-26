@@ -3,7 +3,7 @@
 Uma aplicação web de loja fictícia onde o usuário pode visualizar produtos, adicionar itens à sacola e calcular o total da compra.
 
 # Preview
-![Store.png](https://i.postimg.cc/bv051dKZ/Store.png)
+![Store.png](assets/Store.png)
 
 
 ## Funcionalidades
